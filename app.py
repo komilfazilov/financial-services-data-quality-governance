@@ -287,7 +287,7 @@ with overview_tab:
 
         st.plotly_chart(
             dimension_chart,
-            use_container_width=True,
+            width="stretch",
         )
 
     with right_col:
@@ -315,7 +315,7 @@ with overview_tab:
 
         st.plotly_chart(
             rule_chart,
-            use_container_width=True,
+            width="stretch",
         )
 
 
@@ -328,7 +328,7 @@ with overview_tab:
             "failed_records",
             ascending=False,
         ),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -365,7 +365,7 @@ with overview_tab:
 
     st.plotly_chart(
         product_chart,
-        use_container_width=True,
+        width="stretch",
     )
 
 
@@ -476,7 +476,7 @@ with remediation_tab:
                 "remediation_action",
             ]
         ],
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -533,7 +533,7 @@ for column in [
 
 st.dataframe(
     display_data,
-    use_container_width=True,
+    width="stretch",
     hide_index=True,
 )
     
