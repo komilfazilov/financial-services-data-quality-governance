@@ -2,6 +2,10 @@
 
 An end-to-end portfolio project demonstrating data quality engineering, data governance, reconciliation, analytics, SQL validation, automated testing, remediation management, and executive reporting using entirely synthetic financial-services data.
 
+## Live Demo
+
+[View the interactive Streamlit dashboard](https://financial-services-data-quality.streamlit.app)
+
 > **Portfolio Disclaimer**
 >
 > This project uses entirely synthetic data generated solely for educational and portfolio purposes. It does not contain proprietary, confidential, production, or employer-owned data, code, schemas, screenshots, or internal business rules from any organization.
