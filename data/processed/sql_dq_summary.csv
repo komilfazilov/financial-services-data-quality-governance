@@ -1,0 +1,9 @@
+rule,dimension,failed_records,failure_rate_pct
+Source-to-Report Amount Mismatch,Accuracy,219,2.18
+Missing Customer ID,Completeness,100,1.0
+Stale As-Of Date,Timeliness,100,1.0
+Maturity Before Origination,Consistency,80,0.8
+Invalid Currency,Validity,70,0.7
+Negative Position Amount,Validity,70,0.7
+Invalid Product Type,Validity,50,0.5
+Duplicate Record ID,Uniqueness,50,0.5
